@@ -19,7 +19,10 @@ let package = Package(
             ]
         ),
         .target(
-            name: "Core"
+            name: "Core",
+            dependencies: [
+                "Rainbow"
+            ]
         )
     ]
 )
